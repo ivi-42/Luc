@@ -14,6 +14,10 @@ if "messages" not in st.session_state.keys():  # Initialize the chat message his
     st.session_state.messages = [
         {"role": "assistant", "content": "Ask me a question about what you wrote"}
     ]
+st.write(f"API Key Start: {st.secrets.openai_key[:4]}... End: {st.secrets.openai_key[-4:]}")
+
+
+
 
 
 @st.cache_resource(show_spinner=False)
