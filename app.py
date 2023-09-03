@@ -7,7 +7,7 @@ from llama_index import SimpleDirectoryReader
 
 
 openai.api_key = st.secrets.openai_key
-st.header("Chat with the Luc")
+st.header("Chat with Luc")
 
 if "messages" not in st.session_state.keys(): # Initialize the chat message history
     st.session_state.messages = [
