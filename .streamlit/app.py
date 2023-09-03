@@ -3,7 +3,8 @@ from llama_index import VectorStoreIndex, ServiceContext, Document
 from llama_index.llms import OpenAI
 import openai
 from llama_index import SimpleDirectoryReader
-reader = SimpleDirectoryReader(input_dir="./.data", recursive=True)
+reader = SimpleDirectoryReader(input_dir="/home/gia86326/VisualStudioProjects/Luc/.streamlit/.data", recursive=True)
+
 
 
 
